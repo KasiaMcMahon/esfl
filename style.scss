@@ -1,0 +1,42 @@
+/*
+Theme Name: ESFL
+Template: Divi
+Author URI: http:kasiamcmahon.com
+*/
+
+// VARS
+@import "sass/vars";
+
+// FONTS
+@import "sass/fonts";
+
+// DIVI MODULES
+@import "sass/two-column-slider";
+
+
+// HEADER
+
+.et_header_style_left .logo_container {
+  position: relative;
+  display: inline-block;
+}
+
+#logo {
+  max-height: 180px;
+}
+
+#et-top-navigation {
+  float: none;
+}
+
+//NAV MENU
+
+
+
+
+// MEDIA QUERIES
+
+// 981px
+@media only screen and (min-width: 981px) {
+  @import "sass/981";
+}
